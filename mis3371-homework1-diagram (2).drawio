@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Page-1" id="eKTVTv8xBg6hBP2Aha5W">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wOrx67UU8IkxEax9lVSb-1" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=data:image/jpeg,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;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Village Medical&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Patient Registration Form&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-5" value="&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Name: Azia Sigler&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;File: homework1.html&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Date created: 2-6-2025&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Date update:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Purpose: learning html and creating a form&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="20" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-6" value="&lt;font size=&quot;3&quot;&gt;First Name&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Middle Initial&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Last Name&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Date of Birth&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Social Security&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Address&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="460" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;City&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;State&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Zip Code&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-18" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Email Address&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="610" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Submit&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wOrx67UU8IkxEax9lVSb-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Reset&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
