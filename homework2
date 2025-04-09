@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+   <img src= "vmlogo.jpg">
+   <h1>Village Medical</h1>
+   <h2>Patient Registration Form</h2>
+   <body style="background-color:#ADD8E6;">
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: right;}
+div {text-align: right;}
+</style>
+</head>
+</body>
+<head>
+    <title>Validated Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; }
+        label { display: block; margin-top: 10px; }
+        input, select, textarea { width: 100%; padding: 8px; margin: 5px 0; }
+        .error { color: red; font-size: 12px; display: none; }
+        .slider-value { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<h2>Personal Information</h2>
+<form id="userForm">
+    <!-- Block 1: Name & Dates -->
+    <label>First Name
+        <input type="text" id="firstName" required pattern="^[A-Za-z'-]{1,30}$">
+        <span class="error" id="firstNameError">Invalid first name.</span>
+    </label>
+    <label>Middle Initial
+        <input type="text" id="middleInitial" pattern="^[A-Za-z]?$">
+    </label>
+    <label>Last Name
+        <input type="text" id="lastName" required pattern="^[A-Za-z'\-]*([2-5](st|nd|rd|th))?[A-Za-z'\-]*$">
+    </label>
+    <label>Birth Date
+        <input type="date" id="birthDate" required>
+    </label>
+    <label>Social Security Number / ID
+    <input type="text" id="ssn" required maxlength="11" placeholder="XXX-XX-XXXX"
+        title="For security reasons, only the last 4 digits will be visible when reviewing your data.">
+    <span class="error" id="ssnError">Invalid format. Use XXX-XX-XXXX.</span>
+   </label>
+
+    <h2>Contact Information</h2>
+    <label>Email Address
+        <input type="email" id="email" required>
+    </label>
+    <label>Phone Number
+        <input type="tel" id="phone" required pattern="^\d{3}-\d{3}-\d{4}$">
+    </label>
+
+    <h2>Address</h2>
+    <label>Address Line 1
+        <input type="text" id="address1" required minlength="2" maxlength="30">
+    </label>
+    <label>City
+        <input type="text" id="city" required minlength="2" maxlength="30">
+    </label>
+    <label>State
+        <select id="stateSelect" required>
+   <option value=""></option>
+   <option value="AL">Alabama</option>
+   <option value="AK">Alaska</option>
+   <option value="AZ">Arizona</option>
+   <option value="AR">Arkansas</option>
+   <option value="CA">California</option>
+   <option value="CO">Colorado</option>
+   <option value="CT">Connecticut</option>
+   <option value="DE">Delaware</option>
+   <option value="DC">District Of Columbia</option>
+   <option value="FL">Florida</option>
+   <option value="GA">Georgia</option>
+   <option value="HI">Hawaii</option>
+   <option value="ID">Idaho</option>
+   <option value="IL">Illinois</option>
+   <option value="IN">Indiana</option>
+   <option value="IA">Iowa</option>
+   <option value="KS">Kansas</option>
+   <option value="KY">Kentucky</option>
+   <option value="LA">Louisiana</option>
+   <option value="ME">Maine</option>
+   <option value="MD">Maryland</option>
+   <option value="MA">Massachusetts</option>
+   <option value="MI">Michigan</option>
+   <option value="MN">Minnesota</option>
+   <option value="MS">Mississippi</option>
+   <option value="MO">Missouri</option>
+   <option value="MT">Montana</option>
+   <option value="NE">Nebraska</option>
+   <option value="NV">Nevada</option>
+   <option value="NH">New Hampshire</option>
+   <option value="NJ">New Jersey</option>
+   <option value="NM">New Mexico</option>
+   <option value="NY">New York</option>
+   <option value="NC">North Carolina</option>
+   <option value="ND">North Dakota</option>
+   <option value="OH">Ohio</option>
+   <option value="OK">Oklahoma</option>
+   <option value="OR">Oregon</option>
+   <option value="PA">Pennsylvania</option>
+   <option value="RI">Rhode Island</option>
+   <option value="SC">South Carolina</option>
+   <option value="SD">South Dakota</option>
+   <option value="TN">Tennessee</option>
+   <option value="TX">Texas</option>
+   <option value="UT">Utah</option>
+   <option value="VT">Vermont</option>
+   <option value="VA">Virginia</option>
+   <option value="WA">Washington</option>
+   <option value="WV">West Virginia</option>
+   <option value="WI">Wisconsin</option>
+   <option value="WY">Wyoming</option>  
+        </select>
+    </label>
+    <label>ZIP Code
+        <input type="text" id="zipCode" required pattern="^\d{5}(-\d{4})?$">
+    </label>
+
+    <h2>Choices</h2>
+    <label><input type="checkbox" name="illness" value="Chicken Pox"> Chicken Pox</label>
+    <label><input type="checkbox" name="illness" value="Measles"> Measles</label>
+    <label><input type="checkbox" name="illness" value="Covid-19"> Covid-19</label>
+    <h3>Symptom Scale</h3>
+<input type="range" id="symptomScale" min="1" max="10" step="1" value="1">
+<span class="slider-value" id="symptomValue">1-10</span>
+    
+    <h2>Account Setup</h2>
+    <label>User ID
+        <input type="text" id="userID" required pattern="^[A-Za-z_\-][A-Za-z0-9_\-]{4,29}$">
+    </label>
+    <label>Password
+        <input type="password" id="password" required>
+    </label>
+    <label>Re-enter Password
+        <input type="password" id="confirmPassword" required>
+    </label>
+    <span class="error" id="passwordError">Passwords do not match or do not meet criteria.</span>
+    <button type="button" id="reviewData">Get Data</button>
+    
+    <button type="submit">Submit</button><br><br>
+        <button type="start over">Start Over</button>
+
+</form>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const salarySlider = document.getElementById("salaryRange");
+    const salaryValue = document.getElementById("salaryValue");
+    
+    salarySlider.addEventListener("input", function() {
+        salaryValue.textContent = `$${parseInt(this.value).toLocaleString()}`;
+    });
+
+    document.getElementById("userForm").addEventListener("submit", function(event) {
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirmPassword").value;
+        const userID = document.getElementById("userID").value.toLowerCase();
+        document.getElementById("userID").value = userID;
+
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#%^&*()\-_=+\\/<>.,`~])[A-Za-z\d!@#%^&*()\-_=+\\/<>.,`~]{8,30}$/;
+
+        if (password !== confirmPassword || !passwordRegex.test(password) || password.includes(userID)) {
+            document.getElementById("passwordError").style.display = "block";
+            event.preventDefault();
+        } else {
+            document.getElementById("passwordError").style.display = "none";
+        }
+    });
+});
+</script>
+</body>
+</html>
